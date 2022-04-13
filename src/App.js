@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import { GlobalStyle } from "./styles/global";
+
 function App() {
   return (
-    <div>
-      <p>Fala Dev</p>
+    <div id="main-container">
+      <Header />
+      <GlobalStyle />
     </div>
   );
 }
